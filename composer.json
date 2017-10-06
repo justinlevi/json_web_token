@@ -1,0 +1,29 @@
+{
+  "name": "drupal/json_web_token",
+  "type": "drupal-module",
+  "description": "Provides a Rest json authentication endpoint that returns a jwt.",
+  "keywords": ["Drupal"],
+  "license": "None",
+  "homepage": "https://github.com/justinlevi/json_web_token",
+  "version": "dev-master",
+  "source": {
+    "url": "https://github.com/justinlevi/json_web_token.git",
+    "type": "git",
+    "reference": "master"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require-dev": {
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Drupal\\Tests\\PHPUnit\\": "tests/phpunit/src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
